@@ -14,4 +14,6 @@ der erste Wert (1) spricht das Modul an, der zweite Wert (2) gibt die Box aus di
 zb.: das Artikel Modul hat 4 Boxen "archive, keywords , categories und article", um keywords müsste die ausgabe so geschrieben 
 werden
 
+```
 <?=$this->getBox('article', 'keywords'); ?>
+```
