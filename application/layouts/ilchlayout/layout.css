@@ -1,0 +1,309 @@
+/*-- outher Style --*/
+
+@media (min-width:768px) {
+  .flex {
+    display:flex;
+    align-items: center;
+  }
+}
+
+.text-align {
+  text-align:center;
+}
+
+.padding {
+  padding:50px 0px;
+}
+
+.gaming {
+  background:transparent;
+  border:none;
+}
+
+.btn-1 {
+  background: -webkit-linear-gradient(#E30704 0%, #AD0402 100%);
+  background: -moz-linear-gradient(#E30704 0%, #AD0402 100%);
+  background: -o-linear-gradient(#E30704 0%, #AD0402 100%);
+  background: -ms-linear-gradient(#E30704 0%, #AD0402 100%);
+  background: linear-gradient( #E30704 0%, #AD0402 100%);
+  border-color:transparent;
+  border-bottom: 1px solid #D81602;
+  color:#fff;
+}
+
+.btn-2 {
+  background:#222;
+  color:#fff;
+  border-color:#222;
+}
+
+.btn-1:hover, .btn-2:hover {
+  background:transparent;
+  border-color:#222;
+  color:#fff;
+}
+
+/*-- Navigation --*/
+
+.NeueKlasse {
+   margin-bottom:51px;
+   border:0px;
+}
+.NeueUlKlasse {
+    background:#fff !important;
+}
+.NeueUlKlasse>li>ul>li {
+    padding: 5px 15px !important;
+}
+.NeueUlKlasse>li>ul>li:hover {
+    background:#f5f5f5;
+}
+.NeueUlKlasse>li>ul>li>a {
+    color:#1b1b1b;
+}
+.NeueUlKlasse>li>ul>li>a:hover {
+    text-decoration:none;
+}
+
+#navigation {
+  width:100%;
+  display:block;
+  z-index:1050;
+}
+
+.user-active {
+  background:#D81602;
+}
+
+.user-active a {
+  color:#fff
+}
+
+.ilch--new-message-icon a.text-danger{
+  color:#fff;
+}
+
+/*-- Header Slider --*/
+
+#carousel-generic {
+  margin-top:51px;
+  height:80vh;
+}
+
+@media (min-width:768px) {
+  #carousel-generic {
+    margin-top:0px !important;
+  }
+}
+
+.item {
+  height:80vh;
+}
+
+.carousel-caption h1 {
+  color:#fff;
+  font-size:38px;
+  border-bottom:0px;
+}
+
+.carousel-caption {
+  top:500px;
+}
+
+.carousel-indicators li {
+  width:50px;
+  height:5px;
+  background:#222;
+  border-color:transparent;
+}
+
+.carousel-indicators .active {
+  width:50px;
+  height:5px;
+  background:#D81602;
+  border-color:transparent;
+}
+
+/*-- About Us Section --*/
+
+.about-us {
+  background:#fff;
+  color:#222;
+}
+
+.about-us h1 {
+  font-size:28px;
+  color:#222;
+  border-bottom:0px;
+}
+
+/*-- offer-you section --*/
+
+.what-does {
+  background:#222;
+  color:#fff;
+}
+
+.what-does h1 {
+  font-size:28px;
+  color:#fff;
+  border-bottom:0px;
+}
+
+.what-does i {
+  font-size:28px;
+}
+
+.what-does hr {
+  width:50px;
+  height:3px;
+  background:#D81602;
+  border-color:transparent;
+  margin:10px auto 20px auto;
+}
+
+/*-- Background Section --*/
+
+.background-1 {
+  background:url(img/slider/slider_1.jpg);
+}
+
+.background {
+  background-attachment: fixed;
+  background-size:cover;
+  background-position:center;
+  position:relative;
+}
+
+.background:before {
+  content:"";
+  position: absolute;
+  width:100%;
+  height:100%;
+  top:0;
+  left:0;
+  background:rgba(0, 0, 0, 0.8);
+}
+
+/*-- Teamspeak Section --*/
+
+.teamspeak h1 {
+  color:#fff;
+  font-size:28px;
+  border-bottom:0px;
+}
+
+.teamspeak {
+  color:#fff;
+}
+
+.teamspeak img {
+  width:50%;
+}
+
+/*-- News Section --*/
+
+.news h1 {
+  font-size:28px;
+  color:#222;
+  border-bottom:0px;
+}
+
+.news {
+  background:#fff;
+  color:#222;
+}
+
+.news font {
+  color:#AD0402;
+}
+
+.news .article-body {
+  background:#f9f9f9;
+  padding:20px 0px;
+  margin:20px 0px;
+  border-radius:5px;
+  border:1px solid transparent;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.25);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.25);
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.25);
+}
+
+.news .article-body a {
+  color:#AD0402;
+}
+
+.news .article-header i {
+  color: #fff;
+  font-size: 34px;
+  height: 80px;
+  line-height: 80px;
+  margin: 15px 0 15px 15px;
+  position: relative;
+  text-align: center;
+  width: 80px;
+  z-index: 111;
+  transition: .3s;
+}
+.news .article-header i:after {
+  content: "";
+  height: 80px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  border-radius:50%;
+  width: 80px;
+  z-index: -9999;
+  transition: .3s;
+  background: #AD0402;
+  clear: both;
+}
+.news .article-body:hover .article-header i:after {
+  background:#222;
+}
+
+/*-- Chat Section --*/
+
+.chat {
+  background:#222;
+  color:#fff
+}
+
+.chat h1 {
+  font-size:28px;
+  color:#fff;
+  border-bottom:0px;
+}
+
+.chat .shoutbox-new .first span {
+  border-bottom:1px solid #AD0402;
+}
+.chat .shoutbox-new .first img {
+  width:140px;
+  border:2px solid #222;
+  border-radius:50%;
+  margin-bottom:10px;
+  overflow:hidden;
+}
+.chat .shoutbox-new .first a {
+  color:#AD0402;
+  font-size:20px;
+}
+.chat .shoutbox-new .secend {
+  margin: 10px 0px;
+}
+
+
+/*-- Footer Section --*/
+
+.footer {
+  background:#222;
+  border-top:1px solid #555;
+  color:#fff;
+}
+
+.footer a {
+  color:#AD0402;
+}
+
+/*-- Login Section --*/
