@@ -19,16 +19,13 @@ werden
 ```
 
 # Menü und footer ausgaben
-Die Sidebar ausgabe in der forum.php wird unter Admincenter/Menüs/Menü2 gesteuert,
-Die Sidebar ausgabe in der article.php wird unter Admincenter/Menüs/Menü1 gesteuert,
-Die Navigation ausgabe wird unter Admincenter/Menüs/Menü3 gesteuert,
-Die Sidebar ausgabe in der index.php wird unter Admincenter/Menüs/Menü4 gesteuert,
-Die Footer ausgabe wird unter Admincenter/Menüs/Menü5 gesteuert
+* Die Sidebar ausgabe in der forum.php wird unter Admincenter/Menüs/Menü2 gesteuert,
+* Die Sidebar ausgabe in der article.php wird unter Admincenter/Menüs/Menü1 gesteuert,
+* Die Navigation ausgabe wird unter Admincenter/Menüs/Menü3 gesteuert,
+* Die Sidebar ausgabe in der index.php wird unter Admincenter/Menüs/Menü4 gesteuert,
+* Die Footer ausgabe wird unter Admincenter/Menüs/Menü5 gesteuert
 
 # Videos 
-Video1
-* [Dropwizard](https://www.youtube.com/watch?v=W1D1WGp3ilU) - The web framework used
-
-Video2
-
-Video3
+* [Video1](https://www.youtube.com/watch?v=W1D1WGp3ilU) - #1 Installation
+* [Video1](https://www.youtube.com/watch?v=eruu7AGSmA8) - #2 Startseite
+* [Video1](https://www.youtube.com/watch?v=zSo979JWsPY) - #3 Modul anpassungen 
