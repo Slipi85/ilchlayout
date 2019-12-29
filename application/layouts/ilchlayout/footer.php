@@ -1,3 +1,25 @@
+    <section class="main-footer">
+      <div class="container">
+        <div class="gaming">
+          <div class="row">
+              <?php
+              echo $this->getMenu
+              (
+                  5,
+                  '<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                    <div class="panel panel-gaming">
+                         <div class="heading">%s</div>
+                            <div class="panel-body">
+                                %c
+                            </div>
+                     </div>
+                   </div>'
+              );
+              ?>
+          </div>
+        </div>
+      </div>
+    </section>
     <div class="footer">
         <div class="container">
             <div class="gaming">

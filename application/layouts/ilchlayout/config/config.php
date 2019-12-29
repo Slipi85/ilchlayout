@@ -14,11 +14,11 @@ class Config extends \Ilch\Config\Install
             'start' => [
                 ['module' => 'shoutbox'],
             ],
-            'article' => [
-                ['module' => 'article'],
-            ],
             'forum' => [
                 ['module' => 'forum'],
+            ],
+            'article' => [
+                ['module' => 'article'],
             ]//only for example
         ],
         //'modulekey' => 'Name of Module'
