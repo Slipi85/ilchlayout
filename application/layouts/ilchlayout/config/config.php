@@ -1,6 +1,6 @@
 <?php
 
-namespace Layouts\Todo\Config;
+namespace Layouts\Ilchlayout\Config;
 
 class Config extends \Ilch\Config\Install
 {
