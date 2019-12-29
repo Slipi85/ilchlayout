@@ -27,5 +27,5 @@ werden
 
 # Videos 
 * [Video1](https://www.youtube.com/watch?v=W1D1WGp3ilU) - #1 Installation
-* [Video1](https://www.youtube.com/watch?v=eruu7AGSmA8) - #2 Startseite
-* [Video1](https://www.youtube.com/watch?v=zSo979JWsPY) - #3 Modul anpassungen 
+* [Video2](https://www.youtube.com/watch?v=eruu7AGSmA8) - #2 Startseite
+* [Video3](https://www.youtube.com/watch?v=zSo979JWsPY) - #3 Modul anpassungen 
