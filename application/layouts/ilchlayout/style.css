@@ -1,5 +1,5 @@
 body {
-    background: #000;
+    background: #222;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -53,7 +53,7 @@ hr {
     margin-left: -30px;
 }
 
-.navbar-gaming .container-fluid .navbar-collapse .panel {
+.navbar-gaming .container-fluid .navbar-collapse .card {
     border: 0;
 }
 
@@ -73,21 +73,25 @@ hr {
     background-color: #40434E;
 }
 
-.navbar-toggle .icon-bar {
+.navbar-toggler .icon-bar {
     background-color: #EEE;
 }
-
-header .container {
-    margin-top: 51px;
+header {
+    background: #222;
+}
+header .container-fluid {
+    padding: 0 10px;
 }
 
-@media (min-width: 768px) {
-    header .container {
-        margin-top: 0;
-    }
+header .container-fluid #bs-navbar-collapse-main {
+    margin-top: 10px;
 }
 
-header .container .gaming {
+header #navigation ul {
+    margin: 0;
+}
+
+header .container-fluid .gaming {
     margin: 0;
     padding: 0;
     border-top: 0;
@@ -95,29 +99,29 @@ header .container .gaming {
 }
 
 @media (min-width: 768px) {
-    header .container .gaming {
+    header .container-fluid .gaming {
         margin: 0 10px;
     }
 }
 
 @media (min-width: 1200px) {
-    header .container .gaming {
+    header .container-fluid .gaming {
         margin: 0;
     }
 }
 
 @media (min-width: 768px) {
-    header .container .gaming .carousel-control {
+    header .container-fluid .gaming .carousel-control {
         width: 10%;
     }
 }
 
-header .container .gaming .carousel-indicators {
+header .container-fluid .gaming .carousel-indicators {
     bottom: 0;
     margin-bottom: 5px;
 }
 
-header .container .gaming .gaming-name {
+header .container-fluid .gaming .gaming-name {
     top: 0;
     left: 0;
     position: absolute;
@@ -133,7 +137,7 @@ header .container .gaming .gaming-name {
 }
 
 @media (min-width: 768px) {
-    header .container .gaming .gaming-name {
+    header .container-fluid .gaming .gaming-name {
         top: 20px;
         padding: 15px 0;
         font-size: 32px;
@@ -141,13 +145,13 @@ header .container .gaming .gaming-name {
 }
 
 @media (min-width: 992px) {
-    header .container .gaming .gaming-name {
+    header .container-fluid .gaming .gaming-name {
         top: 30px;
         font-size: 37px;
     }
 }
 
-.container {
+.container-fluid {
     margin-top: 15px;
     padding-left: 0;
     padding-right: 0;
@@ -155,55 +159,34 @@ header .container .gaming .gaming-name {
 }
 
 @media (min-width: 768px) {
-    .container {
+    .container-fluid {
         margin-top: 0;
     }
 }
 
 @media (min-width: 1200px) {
-    .container {
+    .container-fluid {
         width: 80%;
     }
 }
 
 .gaming {
-    background-color: #F1F1F1;
     overflow: hidden;
+    border: 1px solid #32333B;
+    padding: 20px;
 }
 
-@media (min-width: 768px) {
-    .gaming {
-        padding: 20px;
-        margin: 10px;
-        border: 5px solid #32333B
-    }
-}
-
-@media (min-width: 992px) {
-    .gaming {
-        margin: 20px 10px;
-    }
-}
-
-@media (min-width: 1200px) {
-    .gaming {
-        margin: 30px 0;
-    }
-}
-
-.panel-gaming,
-.panel-default {
+.card-gaming {
     border-radius: 0;
 }
 
 @media (min-width: 768px) {
-    .panel-gaming,
-    .panel-default {
+    .card-gaming {
         border-radius: 4px;
     }
 }
 
-.panel-gaming > .panel-heading {
+.card-gaming > .card-title {
     color: #4295C9;
     background-color: #32333B;
     margin-top: 0;
@@ -218,12 +201,12 @@ header .container .gaming .gaming-name {
     border-top-left-radius: 0 !important;
 }
 
-.panel-gaming > .panel-body li {
+.card-gaming > .card-body li {
     line-height: 35px;
     border-bottom: 1px solid #DDD;
 }
 
-.panel-gaming > .panel-body a {
+.card-gaming > .card-body a {
     color: #4295C9;
     text-decoration: none;
 }
@@ -232,58 +215,58 @@ header .container .gaming .gaming-name {
     color: #a94442;
 }
 
-.footer .container {
+.footer .container-fluid {
     margin-top: 15px;
 }
 
 @media (min-width: 768px) {
-    .footer .container {
+    .footer .container-fluid {
         margin-top: 0;
     }
 }
 
-.footer .container .gaming {
+.footer .container-fluid .gaming {
     margin: 0;
     padding: 15px 0;
     border-bottom: 0;
 }
 
 @media (min-width: 768px) {
-    .footer .container .gaming {
+    .footer .container-fluid .gaming {
         margin: 0 10px;
     }
 }
 
 @media (min-width: 1200px) {
-    .footer .container .gaming {
+    .footer .container-fluid .gaming {
         margin: 0;
     }
 }
 
-.footer .container .gaming ul {
+.footer .container-fluid .gaming ul {
     margin: 0;
     padding: 0;
 }
 
-.footer .container .gaming ul li {
+.footer .container-fluid .gaming ul li {
     list-style-type: none;
     display: inline;
 }
 
-.footer .container .gaming ul li:after {
+.footer .container-fluid .gaming ul li:after {
     content: ' | ';
 }
 
-.footer .container .gaming ul li:last-child:after {
+.footer .container-fluid .gaming ul li:last-child:after {
     content: '';
 }
 
-.footer .container .gaming .row [class*="col-"]  {
+.footer .container-fluid .gaming .row-layout [class*="col-"]  {
     padding: 0 30px;
 }
 
 @media (min-width: 768px) {
-    .footer .container .gaming .nav {
+    .footer .container-fluid .gaming .nav {
         text-align: right;
     }
 }
