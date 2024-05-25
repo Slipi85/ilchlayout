@@ -5,24 +5,24 @@
 <!-- Main section -->
 
 <main>
-  <div class="container">
+  <div class="container-fluid">
     <div class="gaming">
-      <div class="row">
+      <div class="row row-layout">
         <div class="col-xs-12 col-sm-9">
-            <div class="panel panel-default">
-                <div class="panel-body">
+            <div class="card">
+                <div class="card-body">
                     <?=$this->getContent() ?>
                 </div>
             </div>
         </div>
-        <div class="col-xs-12 col-sm-3 sidebar">
+        <div class="col-xs-12 col-sm-3 sidebar-layout">
             <?php
             echo $this->getMenu
             (
-                4,
-                '<div class="panel panel-gaming">
-                     <div class="panel-heading">%s</div>
-                        <div class="panel-body">
+                1,
+                '<div class="card card-gaming">
+                     <div class="card-title">%s</div>
+                        <div class="card-body">
                             %c
                         </div>
                  </div>'

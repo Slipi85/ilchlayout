@@ -6,9 +6,9 @@
       <!-- about us section -->
 
       <section class="about-us text-align padding">
-        <div class="container">
+        <div class="container-fluid">
           <div class="gaming">
-            <div class="row">
+            <div class="row row-layout">
               <div class="col-xs-12">
                 <h1>About-us</h1>
                 <p>
@@ -23,26 +23,26 @@
       <!-- what does ... offer you section -->
 
       <section class="what-does text-align padding">
-        <div class="container">
+        <div class="container-fluid">
           <div class="gaming">
-            <div class="row">
+            <div class="row row-layout">
               <div class="col-xs-12">
                 <h1>Wir bieten Euch</h1>
               </div>
               <div class="col-xs-12 col-md-4 col-lg-4">
-                <i class="fa fa-bars"></i><hr>
+                <i class="fa-solid fa-bars"></i><hr>
                 <p>
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.  justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
                 </p>
               </div>
               <div class="col-xs-12 col-md-4 col-lg-4">
-                <i class="fa fa-calendar-o"></i><hr>
+                <i class="fa-solid fa-calendar-o"></i><hr>
                 <p>
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.  justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
                 </p>
               </div>
               <div class="col-xs-12 col-md-4 col-lg-4">
-                <i class="fa fa-users"></i><hr>
+                <i class="fa-solid fa-users"></i><hr>
                 <p>
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.  justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
                 </p>
@@ -55,9 +55,9 @@
       <!-- teamspeak section -->
 
       <section class="background background-1 teamspeak padding">
-        <div class="container">
+        <div class="container-fluid">
           <div class="gaming">
-            <div class="row flex">
+            <div class="row row-layout flex">
               <div class="col-xs-12 col-md-6 col-lg-6">
                 <h1>Unser Teamspeak</h1>
                 <p>
@@ -75,12 +75,12 @@
       <!-- news section -->
 
       <section class="news text-align padding">
-        <div class="container">
+        <div class="container-fluid">
           <div class="gaming">
-            <div class="row">
+            <div class="row row-layout">
               <div class="col-xs-12">
                 <h1>News</h1>
-                <h4><font>News</font> | Events  |<font>Clan</font></h4>
+                <h4><font>News</font> | Events  | <font>Clan</font></h4>
                  <?=$this->getBox('article', 'article'); ?>
               </div>
             </div>
@@ -91,9 +91,9 @@
       <!-- chat section -->
 
       <section class="chat text-align padding">
-        <div class="container">
+        <div class="container-fluid">
           <div class="gaming">
-            <div class="row">
+            <div class="row row-layout">
               <div class="col-xs-12">
                 <h1>Unser Chat</h1>
                  <?=$this->getBox('shoutbox', 'shoutbox'); ?>

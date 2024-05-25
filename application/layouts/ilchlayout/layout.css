@@ -2,52 +2,54 @@
 
 @media (min-width:768px) {
   .flex {
-    display:flex;
+    display: flex;
     align-items: center;
   }
 }
 
 main {
-  background:#222;
-  border:none;
-  color:#fff;
+  background: #222;
+  border: none;
+  color: #fff;
+  
 }
 
 main a {
-  color:#AD0402;
+  color: #AD0402;
 }
 
 main .fa {
-  color:#AD0402;
+  color: #AD0402;
 }
 
 .table-striped > tbody > tr:nth-of-type(2n+1) {
- background-color:#252525
+ background-color: #252525
 }
 .table-hover>tbody>tr:hover {
- background-color:#000;
+ background-color: #000;
 }
 
-.panel {
-  background:transparent;
-  border:none;
+.card {
+  background: transparent;
+  border: none;
+  color: #FFF
 }
 
 .text-align {
-  text-align:center;
+  text-align: center;
 }
 
 .padding {
-  padding:50px 0px;
+  padding: 50px 0px;
 }
 
-.container {
-  margin-top:0px;
+.container-fluid {
+  margin-top: 0px;
 }
 
 .gaming {
-  background:transparent;
-  border:none;
+  background: transparent;
+  border: none;
 }
 
 .btn-1 {
@@ -56,34 +58,34 @@ main .fa {
   background: -o-linear-gradient(#E30704 0%, #AD0402 100%);
   background: -ms-linear-gradient(#E30704 0%, #AD0402 100%);
   background: linear-gradient( #E30704 0%, #AD0402 100%);
-  border-color:transparent;
+  border-color: transparent;
   border-bottom: 1px solid #D81602;
-  color:#fff;
+  color: #fff;
 }
 
 .btn-2 {
-  background:#222;
-  color:#fff;
-  border-color:#222;
+  background: #222;
+  color: #fff;
+  border-color: #222;
 }
 
 .btn-1:hover, .btn-2:hover {
-  background:transparent;
-  border-color:#222;
-  color:#fff;
+  background: transparent;
+  border-color: #222;
+  color: #fff;
 }
 
 main .btn {
-  background:transparent;
+  background: transparent;
   text-decoration: none;
-  color:#fff;
-  border-color:#111;
+  color: #fff;
+  border-color: #111;
 }
 
 main .btn:hover {
-  background:#AD0402;
-  border-color:#111;
-  color:#ffff;
+  background: #AD0402;
+  border-color: #111;
+  color: #ffff;
   text-decoration: none;
 }
 
@@ -91,294 +93,303 @@ main .btn:hover {
 
 
 .NeueKlasse {
-   border:0px;
+   border: 0px;
 }
 .NeueUlKlasse {
-    background:#fff !important;
+    background: #fff !important;
 }
 .NeueUlKlasse>li>ul>li {
     padding: 5px 15px !important;
 }
 .NeueUlKlasse>li>ul>li:hover {
-    background:#f5f5f5;
+    background: #f5f5f5;
 }
 .NeueUlKlasse>li>ul>li>a {
-    color:#1b1b1b;
+    color: #1b1b1b;
 }
 .NeueUlKlasse>li>ul>li>a:hover {
-    text-decoration:none;
+    text-decoration: none;
 }
 
 #navigation {
-  width:100%;
-  display:block;
-  z-index:1050;
-  border-bottom:1px solid #333;
+  width: 100%;
+  display: block;
+  z-index: 1050;
+  border-bottom: 1px solid #333;
 }
 
 .user-active {
-  background:#D81602;
+  background: #D81602;
+  padding: 5px 10px;
 }
 
 .user-active a {
-  color:#fff
+  color: #fff
 }
 
-.ilch--new-message-icon a.text-danger{
-  color:#fff;
+.ilch--new-message-icon a.text-danger {
+  color: #fff;
 }
 
 /*-- Header Slider --*/
 
 #carousel-generic {
-  margin-top:51px;
-  height:50vh;
+  margin-top: 51px;
+  height: 50vh;
 }
 
 @media (min-width:768px) {
   #carousel-generic {
-    margin-top:0px !important;
+    margin-top: 0px !important;
   }
   header .navbar {
-    margin:0;
+    margin: 0;
   }
 }
 .item {
-  height:50vh;
+  height: 50vh;
+}
+.navbar .card-gaming > .card-title {
+  background: #080808 !important;
+  color: #fff;
 }
 
-.navbar .panel-gaming>.panel-heading {
-  background:#080808 !important;
-  color:#fff;
+.card-gaming > .card-body li {
+  border-color: #111;
 }
 
-.panel-gaming > .panel-body li {
-  border-color:#111;
-}
-
-.panel-gaming > .panel-body li a {
-  color:#fff;
+.card-gaming > .card-body li a {
+  color: #fff;
 }
 
 .navbar-brand-m {
-  padding:10px;
-  text-align:center;
+  padding: 10px;
+  text-align: center;
 }
 
 .carousel-caption h1 {
-  color:#fff;
-  font-size:38px;
-  border-bottom:0px;
+  color: #fff;
+  font-size: 38px;
+  border-bottom: 0px;
 }
 
 .carousel-caption {
-  top:200px;
-}
-
-.carousel-indicators li {
-  width:50px;
-  height:5px;
-  background:#222;
-  border-color:transparent;
-}
-
-.carousel-indicators .active {
-  width:50px;
-  height:5px;
-  background:#D81602;
-  border-color:transparent;
+  top: 200px;
 }
 
 .header-m {
-  height:40vh;
-  background:url(img/slider/slider_1.jpg);
-  background-size:cover;
-  background-position:top center;
-  overflow:hidden;
+  height: 40vh;
+  background: url(img/slider/slider_1.jpg);
+  background-size: cover;
+  background-position: top center;
+  overflow: hidden;
 }
 
-.header-m>.carousel-caption {
-  top:10vh;
-  height:15vh;
+.header-m > .carousel-caption {
+  top: 10vh;
+  height: 15vh;
 }
 
 .header-heading .breadcrumb {
-  background:transparent;
-  margin:0px;
-  padding:0px;
+  background: transparent;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.breadcrumb-item {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: "/";
+  text-shadow: 0 1px 1px rgba(0,0,0,.3);
+}
+
+.breadcrumb-item a:hover {
+  text-decoration: underline;
 }
 
 .header-heading .breadcrumb a {
-  color:#fff;
-  font-size:18px;
-  background:transparent;
-  border:none;
+  color: #fff;
+  font-size: 18px;
+  background: transparent;
+  border: none;
 }
 
 .header-heading hr {
-  background:#AD0402;
-  width:50px;
-  height:2px;
-  border-color:transparent;
-  margin:5px auto 20px auto;
+  background: #AD0402;
+  width: 100px;
+  height: 2px;
+  border-color: transparent;
+  margin: 5px auto 0px auto;
 }
 
 @media (min-width:768px) {
-  .header-heading .breadcrumb a {
-    font-size:28px;
+  .header-heading .breadcrumb a,
+  .breadcrumb-item + .breadcrumb-item::before  {
+    font-size: 28px;
   }
-  .header-m>.carousel-caption {
-    top:15vh;
-    height:15vh;
+  .header-m > .carousel-caption {
+    top: 15vh;
+    height: 15vh;
   }
 }
 
 @media (min-width:992px) {
-  .header-heading .breadcrumb a {
-    font-size:38px;
+  .header-heading .breadcrumb a,
+  .breadcrumb-item + .breadcrumb-item::before {
+    font-size: 38px;
   }
-  .header-m>.carousel-caption {
-    top:20vh;
-    height:15vh;
+  .header-m > .carousel-caption {
+    top: 20vh;
+    height: 15vh;
   }
 }
 
 @media (min-width:768px) {
   #carousel-generic, .item {
-    height:80vh;
+    height: 80vh;
   }
   .carousel-caption {
-    top:500px;
+    top: 500px;
   }
 }
 
 .img1 {
-  background:url(img/slider/slider_1.jpg);
+  background: url(img/slider/slider_1.jpg);
 }
 
 .img2 {
-  background:url(img/slider/slider_2.jpg);
+  background: url(img/slider/slider_2.jpg);
 }
 
 .img3 {
-  background:url(img/slider/slider_3.jpg);
+  background: url(img/slider/slider_3.jpg);
 }
 
 .img {
-  width:100%;
-  height:80vh;
-  background-size:cover;
-  background-position:top center;
+  width: 100%;
+  height: 80vh;
+  background-size: cover;
+  background-position: top center;
   background-repeat: no-repeat;
 }
 
 /*-- About Us Section --*/
 
 .about-us {
-  background:#fff;
-  color:#222;
+  background: #fff;
+  color: #222;
 }
 
 .about-us h1 {
-  font-size:28px;
-  color:#222;
-  border-bottom:0px;
+  font-size: 28px;
+  color: #222;
+  border-bottom: 0px;
 }
 
 /*-- offer-you section --*/
 
 .what-does {
-  background:#222;
-  color:#fff;
+  background: #222;
+  color: #fff;
 }
 
 .what-does h1 {
-  font-size:28px;
-  color:#fff;
-  border-bottom:0px;
+  font-size: 28px;
+  color: #fff;
+  border-bottom: 0px;
 }
 
 .what-does i {
-  font-size:28px;
+  font-size: 28px;
 }
 
 .what-does hr {
-  width:50px;
-  height:3px;
-  background:#D81602;
-  border-color:transparent;
-  margin:10px auto 20px auto;
+  width: 50px;
+  height: 3px;
+  background: #D81602;
+  border-color: transparent;
+  margin: 10px auto 20px auto;
 }
 
 /*-- Background Section --*/
 
 .background-1 {
-  background:url(img/slider/slider_1.jpg);
+  background: url(img/slider/slider_1.jpg);
 }
 
 .background {
   background-attachment: fixed;
-  background-size:cover;
-  background-position:center;
-  position:relative;
+  background-size: cover;
+  background-position: center;
+  position: relative;
 }
 
 .background:before {
-  content:"";
+  content: "";
   position: absolute;
-  width:100%;
-  height:100%;
-  top:0;
-  left:0;
-  background:rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
 }
 
 /*-- Teamspeak Section --*/
 
 .teamspeak h1 {
-  color:#fff;
-  font-size:28px;
-  border-bottom:0px;
+  color: #fff;
+  font-size: 28px;
+  border-bottom: 0px;
 }
 
 .teamspeak {
-  color:#fff;
+  color: #fff;
 }
 
 .teamspeak img {
-  width:50%;
+  width: 50%;
 }
 
 /*-- News Section --*/
 
 .news h1 {
-  font-size:28px;
-  color:#222;
-  border-bottom:0px;
+  font-size: 28px;
+  color: #222;
+  border-bottom: 0px;
 }
 
 .news {
-  background:#fff;
-  color:#222;
+  background: #fff;
+  color: #222;
 }
 
 .news font {
-  color:#AD0402;
+  color: #AD0402;
 }
 
 .news .article-body {
-  background:#f9f9f9;
-  padding:20px 0px;
-  margin:20px 0px;
-  border-radius:5px;
-  border:1px solid transparent;
+  background: #f9f9f9;
+  padding: 20px 0px;
+  margin: 20px 0px;
+  border-radius: 5px;
+  border: 1px solid transparent;
   -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.25);
   -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.25);
   box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.25);
 }
 
 .news .article-body a {
-  color:#AD0402;
+  color: #AD0402;
 }
 
 .news .article-header i {
@@ -399,7 +410,7 @@ main .btn:hover {
   left: 0;
   position: absolute;
   top: 0;
-  border-radius:50%;
+  border-radius: 50%;
   width: 80px;
   z-index: -9999;
   transition: .3s;
@@ -407,54 +418,50 @@ main .btn:hover {
   clear: both;
 }
 .news .article-body:hover .article-header i:after {
-  background:#222;
+  background: #222;
 }
 
 /*-- Chat Section --*/
 
 .chat {
-  background:#222;
-  color:#fff
+  background: #222;
+  color: #fff
 }
 
 .chat h1 {
-  font-size:28px;
-  color:#fff;
-  border-bottom:0px;
+  font-size: 28px;
+  color: #fff;
+  border-bottom: 0px;
 }
 
 .chat .shoutbox-new .first span {
-  border-bottom:1px solid #AD0402;
+  border-bottom: 1px solid #AD0402;
 }
 .chat .shoutbox-new .first img {
-  width:140px;
-  border:2px solid #222;
-  border-radius:50%;
-  margin-bottom:10px;
-  overflow:hidden;
+  width: 140px;
+  border: 2px solid #222;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  overflow: hidden;
 }
 .chat .shoutbox-new .first a {
-  color:#AD0402;
-  font-size:20px;
+  color: #AD0402;
+  font-size: 20px;
 }
-.chat .shoutbox-new .secend {
+.chat .shoutbox-new .second {
   margin: 10px 0px;
 }
 
 /*-- sidebar section -- */
 
-.sidebar {
-  border-left:1px solid #111;
+.sidebar-layout .card-gaming > .card-body  a {
+  color: #AD0402;
 }
 
-.sidebar .panel-gaming > .panel-body  a {
-  color:#AD0402;
-}
-
-.sidebar .panel-gaming > .panel-heading , .ilch-head{
-  background:transparent;
-  color:#fff;
-  border-color:transparent;
+.sidebar-layout .card-gaming > .card-title , .ilch-head {
+  background: transparent;
+  color: #fff;
+  border-color: transparent;
   border-bottom: 1px solid #D81602;
   background-image: -webkit-linear-gradient(bottom, #222, #333);
   background-image: -moz-linear-gradient(bottom,#222,#333);
@@ -467,58 +474,65 @@ main .btn:hover {
 }
 
 /*-- forum section --*/
+#forum h1 {
+  display: none;
+}
 
 #forum .ilch-bg {
-  background:#212121;
+  background: #212121;
 }
 
 #forum .ilch-border, #forum .post, #forum .post-footer {
-  border-color:#111;
+  border-color: #111;
 }
 
 #forum .ilch-bg--hover {
-  background:transparent;
+  background: transparent;
 }
 
 #forum a {
-  color:#fff;
-  text-decoration:underline;
+  color: #fff;
+  text-decoration: underline;
+}
+
+#forum .btn {
+  text-decoration: none;
 }
 
 /*-- user-panel section --*/
 
 .profile {
-  padding:10px;
+  padding: 10px;
 }
 
-.profile-sidebar, .profile{
-  background:transparent !important;
+.profile-sidebar, .profile {
+  background: transparent !important;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.45) !important;
 }
 
 .profile-content {
-  background:transparent !important;
+  background: transparent !important;
 }
 
 .profile-content .btn {
-  background:#222 !important;
+  background: #222 !important;
 }
 
 .profile-content .btn:hover {
-  background:#5cb85c !important;
-  border-color:transparent !important;
+  background: #5cb85c !important;
+  border-color: transparent !important;
 }
 
 .profile-sidebar .profile-usermenu ul li a, .profile-sidebar .push-menu i {
-  color:#fff !important;
+  color: #fff !important;
 }
 
 .profile-sidebar .profile-usermenu ul li {
-  border-color:#111 !important;
+  border-color: #111 !important;
 }
 
 .profile-sidebar .profile-usermenu ul li:hover a {
-  background:transparent !important;
+  background: transparent !important;
   color: #5cb85c !important;
   border-left: 2px solid #5cb85c !important;
   margin-left: -2px;
@@ -536,9 +550,9 @@ main .btn:hover {
 }
 
 .chat .chat-wrapper .chat-list-info, .chat .chat-wrapper .message-info {
-  background:transparent;
-  color:#fff;
-  border-color:transparent !important;
+  background: transparent;
+  color: #fff;
+  border-color: transparent !important;
   border-bottom: 1px solid #D81602 !important;
   background-image: -webkit-linear-gradient(bottom, #222, #333);
   background-image: -moz-linear-gradient(bottom,#222,#333);
@@ -551,29 +565,29 @@ main .btn:hover {
 }
 
 .chat .chat-wrapper .chat-list-wrapper {
-  border-color:transparent !important;
+  border-color: transparent !important;
 }
 
 .chat .chat-wrapper .message-list-wrapper {
-  border-color:transparent !important;
-  border-left:1px solid #111 !important;
-  border-right:1px solid #111 !important;
+  border-color: transparent !important;
+  border-left: 1px solid #111 !important;
+  border-right: 1px solid #111 !important;
 }
 
 .chat .chat-wrapper .message-list-wrapper .message-list li.right .body .message {
-  background:#333 !important;
-  color:#fff !important;
-  border-color:#111 !important;
+  background: #333 !important;
+  color: #fff !important;
+  border-color: #111 !important;
 }
 
 .chat .chat-wrapper .message-list-wrapper .message-list li.right .body .message:after {
   border-color: transparent #111 transparent transparent !important
 }
 
-.panel-primary > .panel-heading {
-  background:transparent;
-  color:#fff;
-  border-color:transparent;
+.panel-primary > .card-title {
+  background: transparent;
+  color: #fff;
+  border-color: transparent;
   border-bottom: 1px solid #D81602;
   background-image: -webkit-linear-gradient(bottom, #222, #333);
   background-image: -moz-linear-gradient(bottom,#222,#333);
@@ -586,39 +600,39 @@ main .btn:hover {
 }
 
 .list-group-item {
-  background:transparent;
-  border-color:#111;
+  background: transparent;
+  border-color: #111;
 }
 
-.panel-footer {
-  background:transparent;
-  border:1px solid #111;
+.card-footer {
+  background: transparent;
+  border: 1px solid #111;
 }
 
-.lib-panel .row, .lib-panel .lib-row.lib-header {
-  background:transparent !important;
+.lib-panel .row-layout, .lib-panel .lib-row.lib-header {
+  background: transparent !important;
 }
 
 .page-header {
-  border-bottom:0px;
+  border-bottom: 0px;
 }
 
 /*-- User-Regist section --*/
 
-.user-regist-step .step  {
-  background:transparent !important;
-  color:#D81602!important;
-  border-color:#111!important;
+.user-regist-step .step {
+  background: transparent !important;
+  color: #D81602!important;
+  border-color: #111!important;
 }
 
 .user-regist-step .activestep {
-  color:#5cb85c !important;
+  color: #5cb85c !important;
 }
 
-.panel-default > .panel-heading {
-  background:transparent;
-  color:#fff;
-  border-color:transparent;
+.card > .card-title {
+  background: transparent;
+  color: #fff;
+  border-color: transparent;
   border-bottom: 1px solid #D81602;
   background-image: -webkit-linear-gradient(bottom, #222, #333);
   background-image: -moz-linear-gradient(bottom,#222,#333);
@@ -630,70 +644,75 @@ main .btn:hover {
   rgba(0, 0, 0, .3), inset 0 1px 1px rgba(255, 255, 255, .2);
 }
 
-.panel>.panel-body>.form-horizontal>.panel-default>.panel-body {
-  background:transparent !important;
-  border-left:1px solid #111;
-  border-right:1px solid #111;
+.card > .card-body {
+  background: transparent !important;
+  border-left: 1px solid #111;
+  border-right: 1px solid #111;
 }
 
 /*-- Footer Section --*/
 
 .footer {
-  background:#111;
-  border-top:1px solid #555;
-  color:#fff;
+  background: #111;
+  border-top: 1px solid #555;
+  color: #fff;
 }
 
 .footer a {
-  color:#AD0402;
+  color: #AD0402;
 }
 
 .main-footer {
-  background:#111;
-  color:#fff;
-  padding:0px 10px;
+  background: #111;
+  color: #fff;
+  padding: 0px 10px;
 }
 
 .main-footer a {
-  color:#fff !important;
+  color: #fff !important;
 }
 
 .main-footer .heading {
-  color:#fff;
-  padding:10px 0px;
-  border-top:1px solid #222;
-  border-bottom:1px solid #222;
+  color: #fff;
+  padding: 10px 0px;
+  border-top: 1px solid #222;
+  border-bottom: 1px solid #222;
 }
 
-.main-footer .panel-body ul li {
-  border-color:#151515;
+.main-footer .card-body ul li {
+  border-color: #151515;
 }
 
 .main-footer [class*="col-"] {
-    min-height:310px;
+    min-height: 310px;
 }
 
 @media (min-width:768px) {
   .main-footer {
-    padding:0px;
+    padding: 0px;
   }
 }
 
 /*-- Login Section --*/
 
 .modal-dialog {
-  margin:100px auto;
+  margin: 100px auto;
 }
 
-.login-modul>.modal-dialog > .modal-content {
-  background:#222;
+.login-modul > .modal-dialog > .modal-content {
+  background: #222;
 }
 
-.login-modul>.modal-dialog > .modal-content> .modal-header {
-  color:#FFFFFF;
-  border-color:#AD0402;
+.login-modul > .modal-dialog > .modal-content > .modal-header {
+  color: #FFFFFF;
+  border-color: #AD0402;
 }
 
 .login-modul a {
-  color:#fff;
+  color: #fff;
+}
+
+.card.shop-card-index {
+    background-color: #2b3035;
+    border: 1px solid #495057;
 }
